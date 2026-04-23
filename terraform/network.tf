@@ -88,7 +88,7 @@ resource "aws_security_group" "k3s_sg" {
     description = "Acces aux applications via NodePort"
   }
 
-  # Autoriser tout le trafic sortant
+  
   egress {
     from_port   = 0
     to_port     = 0
